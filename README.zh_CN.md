@@ -83,7 +83,7 @@ app.web3.eth
 2. getLastestGas(): 获取交易时的油费  
   返回值:  
   `Object`-包含以下信息:  
-      - `gasPrice`- 当前的gas价格。这个值由最近几个块的gas价格的中值决定  
+      - `gasPrice`- 当前的gas价格。这个值由最近几个块的gas价格的中值决定 
       - `gas`-发起方提供的油费  
       - `gasLimit`-油费限制
 ## 挂载在app上的方法
@@ -308,7 +308,7 @@ app.web3.eth
     - `to`-接收方地址(如果为代币交易,则是合约地址)
     - `value`-交易数额(如果为代币交易,则为'0x0')
     - `data`-如果为代币交易则为代币交易的信息,ETH交易为'0x'
-
+  - `privatekey`-String类型,发送方私钥
 返回值  
 `Object`-对象包含以下属性  
   - `tx`-签名的交易数据
