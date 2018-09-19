@@ -1,0 +1,81 @@
+{
+    "createAccounts": {
+        "amount": {
+            "type": "int",
+            "min": 1,
+            "required": false
+        }
+    },
+    "isValidAddress": {
+        "address": "string"
+    },
+    "isValidPrivate": {
+        "privatekey": "string"
+    },
+    "getBalance": {
+        "address": "string",
+        "tokenAddress": {
+            "type": "string",
+            "required": false
+        }
+    },
+    "getTokenInfo": {
+        "txHash": "string"
+    },
+    "sendTokenTransaction": {
+        "from": "string",
+        "privatekey": "string",
+        "to": "string",
+        "amount": "string",
+        "tokenAddress": "string"
+    },
+    "sendEthTransaction": {
+        "from": "string",
+        "privatekey": "string",
+        "to": "string",
+        "amount": "string"
+    },
+    "ethSign": {
+        "params": {
+            "type": "object",
+            "rule": {
+                "from": "string",
+                "nonce": "string",
+                "gasPrice": "string",
+                "gasLimit": "string",
+                "to": "string",
+                "value": "string",
+                "gas": "string",
+                "data": "string"
+            }
+        },
+        "privatekey": "string"
+    },
+    "estimateGas": {
+        "from": "string",
+        "to": "string",
+        "amount": "string",
+        "tokenAddress": {
+            "type": "string",
+            "required": false
+        }
+    },
+    "getGasCost": {
+        "gasPrice": "string",
+        "gasUsed": "int"
+    },
+    "setGas": {
+        "newGas": {
+            "rule": {
+                "gas": {
+                    "type": "string",
+                    "required": false
+                },
+                "gasLimit": {
+                    "type": "string",
+                    "required": false
+                }
+            }
+        }
+    }
+}

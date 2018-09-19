@@ -6,5 +6,6 @@
  * @property {String} SOME_KEY - some description
  */
 exports.ethereumUtils = {
-
+    httpProvider: 'https://rinkeby.infura.io/metamask',
+    validate: true
 };

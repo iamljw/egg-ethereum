@@ -12,7 +12,14 @@
     "ethereum",
     "util"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "eth-simple-keyring": "^1.3.1",
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-util": "^5.2.0",
+    "human-standard-token-abi": "^2.0.0",
+    "parameter": "^3.2.0",
+    "web3": "^1.0.0-beta.36"
+  },
   "devDependencies": {
     "autod": "^3.0.0",
     "autod-egg": "^1.0.0",
@@ -50,7 +57,7 @@
     "url": "git+https://github.com/iamljw/egg-ethereum-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/iamljw/egg/issues"
+    "url": "https://github.com/iamljw/egg-ethereum-utils/issues"
   },
   "homepage": "https://github.com/iamljw/egg-ethereum-utils#readme",
   "author": "iamljw",
