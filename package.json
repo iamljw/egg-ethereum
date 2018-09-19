@@ -1,9 +1,9 @@
 {
-  "name": "egg-ethereum-utils",
-  "version": "1.0.1",
+  "name": "egg-ethereum",
+  "version": "1.0.2",
   "description": "ethereum plugin for egg",
   "eggPlugin": {
-    "name": "ethereumUtils"
+    "name": "ethereum"
   },
   "keywords": [
     "egg",
@@ -54,12 +54,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamljw/egg-ethereum-utils.git"
+    "url": "git+https://github.com/iamljw/egg-ethereum.git"
   },
   "bugs": {
-    "url": "https://github.com/iamljw/egg-ethereum-utils/issues"
+    "url": "https://github.com/iamljw/egg-ethereum/issues"
   },
-  "homepage": "https://github.com/iamljw/egg-ethereum-utils#readme",
+  "homepage": "https://github.com/iamljw/egg-ethereum#readme",
   "author": "iamljw",
   "license": "MIT"
 }
