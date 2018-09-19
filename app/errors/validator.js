@@ -3,7 +3,7 @@
 const { ParameterError } = require('./parameter_error');
 
 exports.validate = (rule, data, app) => {
-    if (!app.config.ethereumUtils.validate) {
+    if (!app.config.ethereum.validate) {
         return;
     }
     const errors = app.validator.validate(rule, data);

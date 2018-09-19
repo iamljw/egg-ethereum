@@ -1,11 +1,11 @@
 'use strict';
 
 /**
- * egg-ethereum-utils default config
- * @member Config#ethereumUtils
+ * egg-ethereum default config
+ * @member Config#ethereum
  * @property {String} SOME_KEY - some description
  */
-exports.ethereumUtils = {
+exports.ethereum = {
     httpProvider: 'https://rinkeby.infura.io/metamask',
     validate: true
 };

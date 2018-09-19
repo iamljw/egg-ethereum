@@ -34,7 +34,7 @@ $ npm i egg-ethereum --save
 
 ```js
 // {app_root}/config/plugin.js
-exports.ethereumUtils = {
+exports.ethereum = {
   enable: true,
   package: 'egg-ethereum',
 };
@@ -44,7 +44,7 @@ exports.ethereumUtils = {
 
 ```js
 // {app_root}/config/config.default.js
-exports.ethereumUtils = {
+exports.ethereum = {
     // ethereum node
     httpProvider: 'https://rinkeby.infura.io/metamask'
     // Whether to enable parameter verification

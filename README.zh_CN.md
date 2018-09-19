@@ -43,7 +43,7 @@ $ npm i egg-ethereum --save
 
 ```js
 // config/plugin.js
-exports.ethereumUtils = {
+exports.ethereum = {
   enable: true,
   package: 'egg-ethereum',
 };
@@ -51,7 +51,7 @@ exports.ethereumUtils = {
 
 ## 详细配置
 ```
-exports.ethereumUtils = {
+exports.ethereum = {
     // 以太坊节点
     httpProvider: 'https://rinkeby.infura.io/metamask'
     // 是否开启参数校验
